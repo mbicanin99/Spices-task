@@ -3,24 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
+    <title>Login page</title>
     <link rel="stylesheet" href="loginPage.css">
 </head>
 <body>
-    <div id="login">
-        <h1>Login</h1>
-        <form id="loginForm">
-            <label for="username">Username:</label>
-            <input id="username" type="text" name="username" required>
-            <label for="password">Password:</label>
-            <input id="password" type="password" name="password" required>
-    
-    
-            <button id="loginButton" type="submit">Login</button>
-        </form>
-    </div>
-    
-    <script src="loginPage.js"></script>
-    
+
+  <div id="login">
+    <h1>Login</h1>
+    <form id="loginForm">
+        <label for="username">Username:</label>
+        <input id="username" type="text" name="username" required>
+        <p id="usernameError" style="color: red; display: none;"></p>
+        <label for="password">Password:</label>
+        <input id="password" type="password" name="password" required>
+
+        <p id="passwordError" style="color: red; display: none; "></p>
+
+        <button id="loginButton" type="submit">Login</button>
+    </form>
+</div>
+
+<script src="validation.js"></script>
+<script src="loginPage.js"></script>
+
+
 </body>
 </html>
