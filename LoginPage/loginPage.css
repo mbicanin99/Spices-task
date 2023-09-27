@@ -10,6 +10,9 @@ body {
     text-align: center; 
     background-color: #b9778d;
     padding: 6% ; 
+    margin: 17% 35%;
+    border-radius: 20px;
+  
 }
 
 label {
@@ -29,7 +32,6 @@ input[type="password"] {
    
 }
 
-
 button {
     background-color: #ff007f; 
     color: white;
@@ -41,3 +43,4 @@ button {
     margin-top: 6%;
     width: 50%;
 }
+
