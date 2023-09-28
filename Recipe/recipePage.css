@@ -43,6 +43,31 @@ td {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.text{
+    text-align: justify; 
+    font-family: 'Times New Roman', Times, serif
+}
+
+.jump{
+    justify-self: center;
+    color: white;
+    text-decoration: underline;
+}
+
+ul.square-list {
+    list-style-type: square;
+  }
+  
+  ul.circle-list {
+    list-style-type: circle;
+  }
+  
+ul.square-list li,
+ul.circle-list li {
+  text-align: left;
+}
+
+
 .spice-image {
     width: 153px; 
     height: 86px; 
@@ -59,3 +84,6 @@ td {
     padding: 85px;
 }
 
+p{
+    font-size: 14px;
+    }
