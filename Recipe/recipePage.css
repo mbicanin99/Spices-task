@@ -1,0 +1,61 @@
+body, table, tr, td {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0;
+    padding: 0;
+}
+
+#table {
+    width: 900px;
+    height: 600px;
+    margin: 0 auto; 
+    border-collapse: collapse; 
+}
+
+
+#background-image {
+    background-image: url('../spices.png');
+    background-size: auto 170px;
+    background-repeat: repeat-x;
+    height: 170px;
+
+          
+}
+
+td {
+    text-align: center;
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+#left-column, #right-column {
+    vertical-align: top;
+ }
+
+ #left-column{
+    background-color: #CDAD00;
+    width: 300px;
+}
+
+#left-column h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.spice-image {
+    width: 153px; 
+    height: 86px; 
+    align-self: flex-end;
+    margin-left: auto; 
+    padding-top: 26%;
+
+}
+
+.spice-text {
+    font-size: 18px;
+    background-color: #8B7500;
+    margin: 0;
+    padding: 85px;
+}
+
