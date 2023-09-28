@@ -12,6 +12,10 @@ body, table, tr, td {
     border-collapse: collapse; 
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 44e1411cea11e0d6ba6533481d7224091f3931d4
 #background-image {
     background-image: url('../spices.png');
     background-size: auto 170px;
@@ -42,6 +46,7 @@ td {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+<<<<<<< HEAD
 .text{
     text-align: justify; 
     font-family: 'Times New Roman', Times, serif
@@ -67,6 +72,8 @@ ul.circle-list li {
 }
 
 
+=======
+>>>>>>> 44e1411cea11e0d6ba6533481d7224091f3931d4
 .spice-image {
     width: 153px; 
     height: 86px; 
@@ -83,6 +90,9 @@ ul.circle-list li {
     padding: 85px;
 }
 
+<<<<<<< HEAD
 p{
     font-size: 14px;
     }
+=======
+>>>>>>> 44e1411cea11e0d6ba6533481d7224091f3931d4
