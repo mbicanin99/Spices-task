@@ -1,6 +1,7 @@
 body, table, tr, td {
     margin-top: 0;
     padding: 0;
+
 }
 
 :root {
@@ -12,11 +13,13 @@ body, table, tr, td {
   --font-times: var(--font-times);
 }
 
+
 #table {
     width: 900px;
     height: 600px;
     margin: auto;
     border-collapse: collapse; 
+    
 }
 
 
@@ -26,12 +29,12 @@ body, table, tr, td {
   background-repeat: repeat-x;
   height: 170px;
   padding-bottom: 30px;
+  align-self: center;
     
 }
 
 td {
     text-align: center; 
- 
     padding: 10px;
 }
 
@@ -39,6 +42,7 @@ td {
    vertical-align: top;
    height: 300px;
    font-family: var(--font-times);
+   width: 100%;
 }
 
 
@@ -139,3 +143,58 @@ p{
   .custom-link:hover , .custom-link1:hover{
     color: black; 
   }
+
+
+
+/* responsive style for screens below 700px  */
+  @media (max-width:700px) {
+
+    body{
+      margin:0px;
+    }
+
+    #table {
+      width: 100%;
+      height: auto;
+      padding: 0px;
+      margin: 0px;
+    }
+  
+    #table td, tr{
+      height: 100%;
+    }
+    
+    #background-image {
+      background-size: 100% auto; 
+      padding-bottom: 35%;
+      background-repeat: no-repeat; 
+  
+    }
+
+
+  #right-column { 
+    padding: 0px;
+  }
+  
+  #left-column, #right-column {
+    float: none; 
+    display: block;
+    width: 100%;
+    max-width: 100%; 
+    box-sizing: border-box;
+  }
+
+  .text {
+    
+    word-wrap: break-word;
+  }
+
+  #table2{
+    align-self: center;
+  }
+
+ .mob{
+  padding-right: 5%;
+  margin-right: 2%;
+ }
+}
