@@ -1,14 +1,21 @@
 body, table, tr, td {
-    margin-left: 50px;
-    margin-right: 50px;
     margin-top: 0;
     padding: 0;
+}
+
+:root {
+  --black: #000000;
+  --white: #FFFFFF;
+  --goldLight: #CDAD00;
+  --goldDark: #8B7500;
+  --font-arial: Arial,Helvetica, sans-serif;
+  --font-times: var(--font-times);
 }
 
 #table {
     width: 900px;
     height: 600px;
-    margin: 0 auto; 
+    margin: auto;
     border-collapse: collapse; 
 }
 
@@ -18,47 +25,49 @@ body, table, tr, td {
   background-size: auto 170px; 
   background-repeat: repeat-x;
   height: 170px;
-
-        
+  padding-bottom: 30px;
+    
 }
 
 td {
     text-align: center; 
-    font-size: 16px;
-    font-family:Arial, Helvetica, sans-serif;
+ 
     padding: 10px;
 }
 
 #left-column, #right-column {
    vertical-align: top;
+   height: 300px;
+   font-family: var(--font-times);
 }
 
 
-
 #left-column{
-    background-color: #CDAD00;
+    padding-top: 0px;
+    background-color: var(--goldLight);
     width: 300px;
+    font-family: var(--font-times);
 }
 
 #right-column {
   padding:0;
+  width: 550px;
+  padding-left: 50px;
  }
 
 
 #left-column h2{
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .text{
-    text-align: justify; 
-    font-family: 'Times New Roman', Times, serif
+  text-align: justify; 
 }
 
 .jump{
-    justify-self: center;
-    color: white;
-    text-decoration: underline;
+  justify-self: center;
+  color: white;
+  text-decoration: underline;
 }
 
 ul.square-list {
@@ -72,9 +81,9 @@ ul.square-list {
 ul.square-list li,
 ul.circle-list li {
   text-align: left;
+  line-height: 1;
 }
 
-  
 .spice-image {
     width: 153px; 
     height: 86px; 
@@ -85,35 +94,48 @@ ul.circle-list li {
 }
 
 .spice-text {
-    font-size: 18px;
-    background-color: #8B7500;
-    margin: 0;
-    padding: 40px;
+    font-size: 16px;
+    background-color: var(--goldDark);
+    padding: 15px 30px;
 }
 
 #table2 {
   border: 1px solid #000; 
-  margin: 0 auto; 
+  margin: 5px 0px 0px 0px;
+  width: 100%;
 }
 
 #table2 td {
   border: 1px solid #000; 
-  padding: 3px;
+  padding: 1px;
   text-align: center;
-  width: 30%;
-
+  font-family:var(--font-times);
 }
 
 p{
     font-size: 14px;
  }
 
-.custom-link {
-    color: #CDAD00; 
+  #right-column p{
+    font-family: var(--font-arial)
+  }
+
+ .custom-link1{
+  color: white;
+  
+ }
+
+ .custom-link{
+  color: var(--goldLight); 
+  font-family: var(--font-arial);
+ }
+
+
+.custom-link, .custom-link1 {
     text-decoration: none; 
     transition: color 0.3s; 
   }
   
-  .custom-link:hover {
+  .custom-link:hover , .custom-link1:hover{
     color: black; 
   }
